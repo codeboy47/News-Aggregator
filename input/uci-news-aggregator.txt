@@ -1,0 +1,4 @@
+
+************************************ Download data set from below link *******************************
+
+The data is the UCI News Aggregator dataset (https://archive.ics.uci.edu/ml/datasets/News+Aggregator) which contains headlines and classes for over 400,000 news articles.
