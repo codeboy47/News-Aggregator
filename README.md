@@ -21,7 +21,7 @@ News categories included in this dataset include business; science and technolog
 6. Now training and testing features are pulled into vectors using TfidfVectorizer.
 7. Due to high dimensional input, feature selection is applied on training and testing features which selects 10% of features that are most powerful.
 8. GridSearchCV is used to identify best parameters for our classifiers.
-9. For validation purpose, check for overfitting to the training set or a data leak. This is acheived by using cross_val_score that estimates the accuracy of a model on the dataset by splitting the data, fitting a model and computing the score 10 consecutive times (with 10 different splits each time). 
+9. For validation purpose, overfitting to the training set or a data leak is checked. This is acheived by using cross_val_score that estimates the accuracy of a model on the dataset by splitting the data, fitting a model and computing the score 10 consecutive times (with 10 different splits each time). 
 10. Final quantitative evaluation of best model is done on testing dataset.
 
 Note : Here we apply cross_val_score on both training and transformed features(features after using feature selection). 
