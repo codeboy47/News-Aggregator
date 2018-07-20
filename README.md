@@ -19,7 +19,7 @@ News categories included in this dataset include business; science and technolog
 
 ## Observation:
 
-Table for transformed features:
+Table for total features:
 
 | Classifier | Best Parameters | Training time(s) | Accuracy(%)  |
 | --- | --- | --- | --- |
@@ -39,8 +39,10 @@ Table for transformed features:
 <br>
 
 ## Conclusions:
-
-
+1. Accuracy for random forest on both types of data is approximately same but it takes alomost 10 hours to train total features whereas it takes just 2 minutes for transformed data.
+2. Multinomial Naive Bayes and Logistic regression have same parameters for both types of features.
+3. Accuracy for AdaBoost increases significantly if we increase number of features but training time is huge.
+4. Accuracy for Logistic regression increases by 2% when we train on entire training dataset as the training time difference between 2 types of features is only 9 seconds. 
 
 <br>
 
