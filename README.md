@@ -19,7 +19,6 @@ News categories included in this dataset include business; science and technolog
 
 ## Observation:
 
-Table for total features:
 | Classifier | Best Parameters | Training time(s) | Accuracy(%)  |
 | --- | --- | --- | --- |
 | Multinomial Naive Bayes | alpha = 0.1 | 0.116 | 92.7 |
