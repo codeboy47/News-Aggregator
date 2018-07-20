@@ -18,12 +18,23 @@ News categories included in this dataset include business; science and technolog
 <br>
 
 ## Observation:
-| Algorithm | Total features | Transformed features |
-| --- | --- | --- |
-|  | Best Parameters | Training time | Accuracy | | Best Parameters | Training time | Accuracy |
-| Naive Bayes Classifier | 1.745 | 0.188 | 0.973265073948 | 1.745 | 0.188 | 0.973265073948 |
+
+Table for total features:
+| Classifier | Best Parameters | Training time(s) | Accuracy(%)  |
+| --- | --- | --- | --- |
+| Multinomial Naive Bayes | alpha = 0.1 | 0.116 | 92.7 |
+| Logistic regression | C = 1, multi_class = multinomial, solver = newton-cg | 23.688 | 94.29 | 
+| AdaBoost | n_estimators = 80, learning_rate = 0.5  | 21534.235 |88.62 |
+| Random Forest | criterion = gini, n_estimators = 100, max_features = sqrt | 37419.736 | 92.13 |
 
 
+Table for transformed features:
+| Classifier | Best Parameters | Training time(s) | Accuracy(%)  |
+| --- | --- | --- | --- |
+| Multinomial Naive Bayes | alpha = 0.1 | 0.108 | 91.31 |
+| Logistic regression | C = 1, multi_class = multinomial, solver = newton-cg | 14.739 | 92.79 | 
+| AdaBoost | n_estimators = 50, learning_rate = 1 | 34.28 | 59.75 |
+| Random Forest | criterion = gini, n_estimators = 10, max_features = sqrt | 119.375 | 92.01 |
 <br>
 
 ## Conclusions:
