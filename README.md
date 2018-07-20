@@ -19,6 +19,8 @@ News categories included in this dataset include business; science and technolog
 
 ## Observation:
 
+Table for transformed features:
+
 | Classifier | Best Parameters | Training time(s) | Accuracy(%)  |
 | --- | --- | --- | --- |
 | Multinomial Naive Bayes | alpha = 0.1 | 0.116 | 92.7 |
@@ -27,6 +29,7 @@ News categories included in this dataset include business; science and technolog
 | Random Forest | criterion = gini, n_estimators = 100, max_features = sqrt | 37419.736 | 92.13 |
 
 Table for transformed features:
+
 | Classifier | Best Parameters | Training time(s) | Accuracy(%)  |
 | --- | --- | --- | --- |
 | Multinomial Naive Bayes | alpha = 0.1 | 0.108 | 91.31 |
