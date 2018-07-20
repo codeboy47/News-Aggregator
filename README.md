@@ -19,7 +19,8 @@ News categories included in this dataset include business; science and technolog
 
 ## Observation:
 | Algorithm | Total features | Transformed features |
-| --- | Best Parameters | Training time | Accuracy | | Best Parameters | Training time | Accuracy |
+| --- | --- | --- |
+|  | Best Parameters | Training time | Accuracy | | Best Parameters | Training time | Accuracy |
 | Naive Bayes Classifier | 1.745 | 0.188 | 0.973265073948 | 1.745 | 0.188 | 0.973265073948 |
 
 
