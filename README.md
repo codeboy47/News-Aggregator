@@ -30,7 +30,7 @@ Note : Here we apply cross_val_score on both training and transformed features(f
 
 ## Observation:
 
-Table for total features:
+Table for total training features:
 
 | Classifier | Best Parameters | Training time(s) | Accuracy(%)  |
 | --- | --- | --- | --- |
