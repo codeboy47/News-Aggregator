@@ -23,9 +23,6 @@ Table for total features:
 | Classifier | Best Parameters | Training time(s) | Accuracy(%)  |
 | --- | --- | --- | --- |
 | Multinomial Naive Bayes | alpha = 0.1 | 0.116 | 92.7 |
-| Logistic regression | C = 1, multi_class = multinomial, solver = newton-cg | 23.688 | 94.29 | 
-| AdaBoost | n_estimators = 80, learning_rate = 0.5  | 21534.235 |88.62 |
-| Random Forest | criterion = gini, n_estimators = 100, max_features = sqrt | 37419.736 | 92.13 |
 
 
 Table for transformed features:
