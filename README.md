@@ -1,4 +1,4 @@
-# New-Aggregator
+# News-Aggregator
 <br>
 
 ## Objective:
